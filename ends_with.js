@@ -7,3 +7,10 @@
 function solution(str, ending){
     return ending === str.substring(str.length - ending.length)
 }
+
+
+//THERE IS ENDSWITH METHOD!!!!!!!!
+
+function solution2(str, ending){
+    return str.endsWith(ending);
+  }
